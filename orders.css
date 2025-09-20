@@ -1,0 +1,70 @@
+/* 💬 Global styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* 🧢 Header styling */
+.main-header {
+  background-color: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-bottom: 5px solid #1c5d3a;
+}
+
+.main-header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.main-header p {
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* 📋 Orders table styling */
+.orders-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orders-table th,
+.orders-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+.orders-table th {
+  background-color: #2e8b57;
+  color: white;
+}
+
+.orders-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* 🧱 Footer styling */
+.main-footer {
+  background-color: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
